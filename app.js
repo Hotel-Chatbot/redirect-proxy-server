@@ -1,7 +1,7 @@
 import fastify from "fastify";
 const server = fastify();
-server.get("/:url", (req, res) => {
-  res.redirect(req.params.url);
+server.get("/login/google/redirect", (req, res) => {
+  res.redirect("http://localhost:5173/");
 });
 async function main() {
   try {
