@@ -3,6 +3,8 @@ const server = fastify();
 server.get("/login/google/redirect", (req, res) => {
   res.redirect("http://localhost:5173/");
 });
+
+// https://chatbot-upx1.onrender.com
 async function main() {
   try {
     server.listen({ port: 3000, host: "0.0.0.0" }, (err, addr) => {
