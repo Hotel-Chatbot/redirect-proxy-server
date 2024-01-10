@@ -1,0 +1,14 @@
+{
+  "name": "proxyserver",
+  "version": "1.0.0",
+  "description": "proxyserver for getting valid domain",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dhatchinamoorthi R",
+  "license": "ISC",
+  "dependencies": {
+    "fastify": "^4.25.2"
+  }
+}
